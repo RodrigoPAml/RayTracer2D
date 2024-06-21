@@ -1,6 +1,8 @@
 # RayTracer2D
 
-First implementation of a Ray Tracing in 2D using BoxEngine
+First implementation of a Ray Tracing in 2D using Box Engine with Lua and GLSL
+
+Box engine is developed by me to create 2D and 3d applications
 
 # Show case
 
@@ -22,7 +24,8 @@ First implementation of a Ray Tracing in 2D using BoxEngine
 - Direct light is calculated by casting a ray from the pixel to the light, and cheking if no collision is detected with the rectangles.
 - Indirect light is done by casting N rays (configurable) from the pixel and when it intersect with some rectangle, it checks if it reaches the light from the intersection point. From there the calculation with angle and attenuation is made and the average of light is calculated from all directions.
 - Indirect light have only a single bounce.
-
+- Take a look at the file shader.frag for mor implementation info
+  
 ![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/4b16a707-dd52-4737-aaf1-3fed438a045d)
 
 # Executing
