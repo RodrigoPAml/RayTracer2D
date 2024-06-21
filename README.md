@@ -1,2 +1,30 @@
 # RayTracer2D
+
 First implementation of a Ray Tracing in 2D using BoxEngine
+
+# Show case
+
+![gif1](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/5c67320f-d735-4f97-9b50-5cbb4f18c266)
+
+# How to use
+
+- Click in a object to move it
+- To delete a object click it and press delete
+- To create a new object press space
+- To scale a selected object press Q/W or A/S
+- To move the light press L
+- To configure resolution, number of casted rays or others, execute in the engine editor and edit 'begin_frame' or 'ray_tracer' game object
+
+![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/f37406c1-749b-48fa-ba5d-72bdda7ed89a)
+
+# Implementation
+
+- Direct light is calculated by casting a ray from the pixel to the light, and cheking if no collision is detected with the rectangles.
+- Indirect light is done by casting N rays (configurable) from the pixel and when it intersect with some rectangle, it checks if it reaches the light from the intersection point. From there the calculation with angle and attenuation is made and the average of light is calculated from all directions.
+- Indirect light have only a single bounce.
+
+# Executing
+
+- Box Engine is avaible in Engine Folders with a release and the source code is in my repository
+- To run use start.sh or use start_editor.sh to use the engine editor and change settings better
+- Source code of ray tracing is in Assets folder
