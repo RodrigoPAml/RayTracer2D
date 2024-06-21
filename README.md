@@ -1,2 +1,2 @@
 # RayTracer2D
-First implementation of a ray tracing in 2d using BoxEngine
+First implementation of a Ray Tracing in 2D using BoxEngine
