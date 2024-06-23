@@ -31,7 +31,11 @@ Box engine is developed by me to create 2D and 3d applications
 - Indirect light is done by casting N rays (configurable) from the pixel and when it intersect with some rectangle, it checks if it reaches the light from the intersection point. From there the calculation with angle (dot product) and attenuation is made and the average of light is calculated from all directions.
 - Indirect light have only a single bounce.
 - Take a look at the file shader.frag for mor implementation info
-  
+
+## Light interaction
+
+- This image describes how light interact in the real world and somehow its simulated
+    
 ![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/4b16a707-dd52-4737-aaf1-3fed438a045d)
 
 # Executing
