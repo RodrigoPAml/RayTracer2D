@@ -34,7 +34,7 @@ Box engine is developed by me to create 2D and 3d applications
 
 ## Light interaction
 
-- This image describes how light interact in the real world and somehow its simulated
+- This image describes how light interact in the real world (direct vs indirect), note that in the shader, the calculations starts from the pixels being draw and not from the actual light
     
 ![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/4b16a707-dd52-4737-aaf1-3fed438a045d)
 
