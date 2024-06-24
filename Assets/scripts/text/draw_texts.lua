@@ -1,4 +1,5 @@
--- example of drawing text
+-- desenha textos
+
 function draw_texts.start()
     local this = engine.current()
     local font_path = engine.dir.get_assets_path() .. '/fonts/arial.ttf';
