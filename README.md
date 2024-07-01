@@ -41,7 +41,7 @@ Box engine is developed by me to create 2D and 3d applications
 # Executing
 
 - Box Engine is available in Engine Folders with a release and the source code is in my repository (note that versions might differ)
-- To run use start.sh or use start_editor.sh to use the engine editor and change settings better
+- To run use start.bat or use start_editor.bat to use the engine editor and change settings better
 - The complete source code of the ray tracing is in Assets folder
 
 ![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/2f866ba6-1e36-4368-b2ab-bd5389c997fc)
