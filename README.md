@@ -4,15 +4,7 @@ First implementation of a Ray Tracing in 2D using Box Engine with Lua and GLSL
 
 Box engine is developed by me to create 2D and 3d applications
 
-# Show case
-
 ![ezgif-5-3c3f808ea9](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/16672cc7-eecc-4122-853e-a39805f39d06)
-
-![ezgif-5-386e8e0582](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/a9ac4be1-9bad-4b85-b388-6e76e238fad3)
-
-![gif1](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/5c67320f-d735-4f97-9b50-5cbb4f18c266)
-
-![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/85e6949d-7108-46ae-8ebc-3b619d1cf85a)
 
 # How to use
 
@@ -31,6 +23,14 @@ Box engine is developed by me to create 2D and 3d applications
 - Indirect light is done by casting N rays (configurable) from the pixel and when it intersect with some rectangle, it checks if it reaches the light from the intersection point. From there the calculation with angle (dot product) and attenuation is made and the average of light is calculated from all directions.
 - Indirect light have only a single bounce.
 - Take a look at the file shader.frag for mor implementation info
+
+# Show case
+
+![ezgif-5-386e8e0582](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/a9ac4be1-9bad-4b85-b388-6e76e238fad3)
+
+![gif1](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/5c67320f-d735-4f97-9b50-5cbb4f18c266)
+
+![image](https://github.com/RodrigoPAml/RayTracer2D/assets/41243039/85e6949d-7108-46ae-8ebc-3b619d1cf85a)
 
 ## Light interaction
 
